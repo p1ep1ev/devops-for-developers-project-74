@@ -5,4 +5,4 @@ services:
       context: .
       dockerfile: Dockerfile.production
     environment:
-      - DATABASE_URL=sqlite::memory:
+      - NODE_ENV=development
