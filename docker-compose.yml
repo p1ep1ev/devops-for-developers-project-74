@@ -1,5 +1,6 @@
 services:
   app:
-    build: .
-    volumes:
-      - ./app:/app
+    image: p1ep1e/devops-for-developers-project-74
+    build:
+      context: .
+      dockerfile: Dockerfile.production
